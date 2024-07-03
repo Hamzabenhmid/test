@@ -1,0 +1,130 @@
+/* General Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+.hero {
+  background-image: url('https://media.istockphoto.com/id/1395787170/fr/vid%C3%A9o/coll%C3%A8gues-entrant-dans-la-voiture-de-service-de-covoiturage.jpg?s=640x640&k=20&c=FCj50aB4jiPP76VLsUPjfpMO8EOod5jCU-oet0lVKHU=');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 100px 20px;
+  text-align: center;
+}
+
+.hero-content {
+  max-width: 800px;
+  margin: auto;
+}
+
+.hero h1 {
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.2em;
+  margin-bottom: 40px;
+}
+
+.cta-button {
+  background-color: #f39c12;
+  color: white;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1em;
+  cursor: pointer;
+  margin: 0 10px;
+  transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+  background-color: #e67e22;
+}
+
+/* Features Section */
+.features {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 50px 20px;
+  background-color: white;
+}
+
+.feature {
+  flex: 1;
+  max-width: 300px;
+  margin: 20px;
+  text-align: center;
+}
+
+.feature img {
+  width: 100px;
+  margin-bottom: 20px;
+}
+
+.feature h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+/* Footer Styles */
+.footer {
+  background-color: #2c3e50;
+  color: white;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.footer-section {
+  margin: 10px;
+  min-width: 200px;
+}
+
+.footer-section h3 {
+  border-bottom: 2px solid #f39c12;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+
+.footer-section p,
+.footer-section ul,
+.footer-section li,
+.footer-section a {
+  color: white;
+  margin: 5px 0;
+}
+
+.footer-section ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer-section li {
+  margin: 5px 0;
+}
+
+.footer-section a {
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer-section a:hover {
+  color: #f39c12;
+}
+
+.footer-bottom {
+  margin-top: 20px;
+  border-top: 1px solid #f39c12;
+  padding-top: 10px;
+}
